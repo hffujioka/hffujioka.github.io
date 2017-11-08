@@ -1,0 +1,51 @@
+/*This is my CSS file*/
+body {
+  background-image: url(http://s1.picswalls.com/wallpapers/2016/06/06/hd-beach-wallpaper_090612883_305.jpg);
+  background-size: cover;
+}
+.roomName {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.words {
+  margin-left: 10%;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.div {
+  width: 20%;
+  min-width: 210px;
+  background-color: rgba(255,255,255,0.8);
+  float: left;
+  margin: 0px 20px 0px 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.input {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.input:focus {
+  box-shadow: 2px 2px 2px rgba(0,0,0,1.0);
+}
+
+.button {
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 2px rgba(0,0,0,1.0);
+}
+
+.list {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.entry:hover {
+  background-color: rgba(250,255,155,1.0);
+}
